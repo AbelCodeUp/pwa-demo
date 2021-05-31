@@ -4,20 +4,21 @@
 
 let dataCacheName = 'new-data-v1'
 let cacheName = 'first-pwa-app-1'
+let filepath = '/pwa-demo/install-prompt/public';
 let filesToCache = [
-  '/',
-  '/index.html',
-  '/style/index.css',
-  '/style/fonts/iconfont.css',
-  '/style/fonts/iconfont.eot',
-  '/style/fonts/iconfont.js',
-  '/style/fonts/iconfont.svg',
-  '/style/fonts/iconfont.ttf',
-  '/style/fonts/iconfont.woff',
-  '/assets/images/icons/icon_144x144.png',
-  '/assets/images/icons/icon_152x152.png',
-  '/assets/images/icons/icon_192x192.png',
-  '/assets/images/icons/icon_512x512.png'
+  filepath + '/',
+  filepath + '/index.html',
+  filepath + '/style/index.css',
+  filepath + '/style/fonts/iconfont.css',
+  filepath + '/style/fonts/iconfont.eot',
+  filepath + '/style/fonts/iconfont.js',
+  filepath + '/style/fonts/iconfont.svg',
+  filepath + '/style/fonts/iconfont.ttf',
+  filepath + '/style/fonts/iconfont.woff',
+  filepath + '/assets/images/icons/icon_144x144.png',
+  filepath + '/assets/images/icons/icon_152x152.png',
+  filepath + '/assets/images/icons/icon_192x192.png',
+  filepath + '/assets/images/icons/icon_512x512.png'
 ]
 
 self.addEventListener('install', function (e) {
